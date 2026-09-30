@@ -15,3 +15,13 @@
 )
 
 #let idiomas = "Português (nativo) · Inglês (fluente) · Alemão (intermediário) · Espanhol (intermediário)"
+
+// English variants
+
+#let formacao-en = (
+  curso: "Mechanical Engineering",
+  instituicao: "UFPI — Federal University of Piauí",
+  periodo: "2012–2016",
+)
+
+#let idiomas-en = "Portuguese (native) · English (fluent) · German (intermediate) · Spanish (intermediate)"

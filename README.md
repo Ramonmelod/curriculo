@@ -1,11 +1,13 @@
 # Currículo — Ramon Melo
 
-Currículo em [Typst](https://typst.app) com duas versões geradas a partir de fonte compartilhada:
+Currículo em [Typst](https://typst.app) com quatro versões geradas a partir de fonte compartilhada:
 
-| Arquivo | Versão |
-| --- | --- |
-| `curriculo-empresa.typ` | Processo seletivo (CLT/PJ) — habilidades e experiência em destaque |
-| `curriculo-freelance.typ` | Captação de clientes — projetos em produção em destaque |
+| Arquivo | Versão | Idioma |
+| --- | --- | --- |
+| `curriculo-empresa.typ` | Processo seletivo (CLT/PJ) — habilidades e experiência em destaque | PT-BR |
+| `curriculo-freelance.typ` | Captação de clientes — projetos em produção em destaque | PT-BR |
+| `curriculo-empresa-en.typ` | Job applications — skills and experience | EN |
+| `curriculo-freelance-en.typ` | Client acquisition — production projects | EN |
 
 `comum.typ` centraliza dados compartilhados (contato, formação, idiomas).
 
@@ -21,7 +23,7 @@ Currículo em [Typst](https://typst.app) com duas versões geradas a partir de f
 ./build.sh
 ```
 
-Gera `out/curriculo-empresa.pdf` e `out/curriculo-freelance.pdf`.
+Gera os quatro PDFs em `out/` (`curriculo-{empresa,freelance}{,-en}.pdf`).
 
 Preview ao vivo durante a edição:
 
